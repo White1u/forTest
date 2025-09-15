@@ -3,5 +3,7 @@ package com.lnc.gittest;
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World");
+        Branch branch = new Branch();
+        branch.branch();
     }
 }
